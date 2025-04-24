@@ -8,12 +8,12 @@ public class PlaindromeNumbers {
 	int length = num.length();
 	for(int index = length - 1; index >= 0; index--) {
 	 	reverse = reverse + num.charAt(index);
+	}
 	if(num.equals(reverse)) {
 	  System.out.println("the entered string " + num + " is a palindrome. ");
 	} else {
 	   System.out.println("the entered string " + num + " isn't a palindrome.");
-	}
-	}
+}
 }
  }
 	
